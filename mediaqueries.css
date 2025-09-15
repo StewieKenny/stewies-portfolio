@@ -1,0 +1,147 @@
+
+/* @media screen and (max-width: 1400px) {
+   #profile{
+        height: 80vh;
+        margin-top: 6rem;
+    }
+    .about-details-box{
+        flex-wrap: wrap;
+    } 
+}*/
+
+@media screen and (max-width: 900px) {
+    .about-paragraph{
+        width: fit-content;
+    }
+    .about-paragraph p{
+        width: 600px;
+    }
+    .text-box{
+        margin-top: 100px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        display: none;
+    }
+    .side-menu{
+        display: flex;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    .profile-box{
+        flex-wrap: wrap;
+    }
+    .about-details-container{
+        flex-wrap: wrap;
+    }
+    .section-container{
+        flex-wrap: wrap;
+    }
+    .about-details-box{
+        flex-wrap: wrap;
+        max-width: 200px;
+    }
+    .details-block{
+        width: 500px;
+    }
+    .experience-details-box{
+        flex-wrap: wrap;
+    }
+    .inner-experience-details-block{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-container{
+        flex-wrap: wrap;
+    }
+    .arrow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    section{
+        flex-wrap: wrap;
+    }
+    .profile-box{
+        flex-wrap: wrap;
+        padding: 10px;
+       
+    }
+    .text-box{
+        width: 300px;
+        margin-top: 50px;
+    }
+    .social-box{
+        width: 100px;
+        
+    }
+    .photo-box{
+        justify-content: center;
+        width: 300px;
+        margin-top: 10px;
+        
+    }
+    .profile-img-size{
+        width: 350px;
+        border-radius: 50px;
+        background-size: cover;
+    }
+    .about-details-container{
+        flex-wrap: wrap;
+    }
+    #about{
+        margin-top: 50px;
+    }
+    .about-photo{
+        width: 300px;
+        
+    }
+    .van-image{
+        width: 350px;
+        background-size: cover;
+    }
+    .section-container{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    
+    .about-paragraph{
+        width: fit-content;
+    }
+    .about-paragraph p{
+        width: 350px;
+    }
+    .inner-experience-details-block{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: start;
+        width: 300px;
+    }    
+    .details-block{
+        width: 300px;
+    }
+    .contact-container{
+        flex-wrap: wrap;
+    }
+    #experience{
+        margin-top: 50px;
+    }
+
+     #projects{
+        margin-top: 50px;
+    }
+
+     #contact{
+        margin-top: 50px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+}
