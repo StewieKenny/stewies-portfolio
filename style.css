@@ -449,6 +449,11 @@ section{
     gap: 10px;
 }
 
+.linkedin{
+    text-decoration: none;
+    color: black
+}
+
 /* Footer */
 
 .footer-container{
