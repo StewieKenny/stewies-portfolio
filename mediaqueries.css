@@ -84,12 +84,13 @@
     }
     .photo-box{
         justify-content: center;
-        width: 300px;
+        width: 350px;
         margin-top: 10px;
         
     }
     .profile-img-size{
-        width: 350px;
+        width: 300px;
+        height: 325px;
         border-radius: 50px;
         background-size: cover;
     }
