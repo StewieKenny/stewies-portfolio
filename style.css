@@ -380,14 +380,29 @@ section{
 }
 
 .card-box{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    padding: 30px 30px 40px 30px;
     width: 300px;
     border: solid 1px;
     border-color: #1E90FF;
     border-radius: 50px;
+    overflow-x: hidden;
+    
+}
+
+.purpose{
+    display: none;
+    position: absolute;
+    padding: 30px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: white;
+    top: 0;
+    left: -350px;
+    transition: all 2s ease;
 }
 
 .project-img-block{
@@ -431,6 +446,74 @@ section{
     background-color: white;
     border: solid 1px;
     border-color: #1E90FF;
+}
+
+.logo-heading{
+    margin-bottom: 50px;
+}
+
+.logo-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-content p{
+    text-align: center;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.logo-slide-container{
+    position: relative;
+    
+}
+
+.logo-slide{
+    width: 500px;
+    display: none;
+}
+
+
+.showPicture {
+    display: block;
+}
+
+.button-slide {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid 1px #1E90FF;
+    border-radius: 50px;
+    font-family: poppins;
+    transform: translateY();
+    background: white;
+    color: black;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button:active {
+    box-shadow: #FFBF00;
+    transform: scale(1.10);
+    animation: none;
+}
+
+.left-button {
+    left: -25px;
+}
+
+.right-button {
+    right: -25px;
 }
 
 /* Contact section */
