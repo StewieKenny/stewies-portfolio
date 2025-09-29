@@ -450,6 +450,7 @@ section{
 
 .logo-heading{
     margin-bottom: 50px;
+    width: 700px;
 }
 
 .logo-project{
@@ -514,6 +515,19 @@ button:active {
 
 .right-button {
     right: -25px;
+}
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dataset-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
 }
 
 /* Contact section */

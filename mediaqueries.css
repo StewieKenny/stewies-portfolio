@@ -154,4 +154,11 @@
     .contact-container{
         flex-direction: column;
     }
+    .dataset-card-container{
+        width: 350px;
+    }
+    .logo-heading{
+        width: 350px;
+        font-size: 1rem;
+    }
 }
