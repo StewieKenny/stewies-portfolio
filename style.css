@@ -551,6 +551,10 @@ button:active {
     color: black
 }
 
+.data-list{
+    list-style: none;
+}
+
 /* Footer */
 
 .footer-container{
