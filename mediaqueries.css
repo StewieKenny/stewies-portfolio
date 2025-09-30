@@ -1,13 +1,9 @@
 
-/* @media screen and (max-width: 1400px) {
-   #profile{
-        height: 80vh;
-        margin-top: 6rem;
-    }
-    .about-details-box{
-        flex-wrap: wrap;
-    } 
-}*/
+ @media screen and (max-width: 1920px) {
+   .logo-heading{
+    text-align: center;
+}
+}
 
 @media screen and (max-width: 900px) {
     .about-paragraph{
