@@ -530,6 +530,13 @@ button:active {
     width: 900px;
 }
 
+.data-list{
+    list-style: none;
+}
+
+.visuals{
+    width: 500px;
+}
 /* Contact section */
 
 .contact-container{
@@ -551,9 +558,7 @@ button:active {
     color: black
 }
 
-.data-list{
-    list-style: none;
-}
+
 
 /* Footer */
 
