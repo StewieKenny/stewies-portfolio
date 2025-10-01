@@ -527,15 +527,26 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 900px;
+    width: 800px;
+    padding: 0;
 }
 
 .data-list{
     list-style: none;
 }
 
+
 .visuals{
-    width: 500px;
+    width: 750px;
+}
+.sql-btn{
+    width: fit-content;
+    padding: 0px 10px;
+}
+
+.data-button{
+    width: fit-content;
+    padding: 0px 10px;
 }
 /* Contact section */
 
