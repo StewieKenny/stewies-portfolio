@@ -66,14 +66,15 @@ document.addEventListener("DOMContentLoaded", () => {
             slideIndex = slides.length - 1;
         } 
 
-            slides.forEach((x=>{
-                x.classList.remove("showPicture");
-            }));
-            slides[slideIndex].classList.add("showPicture");
+        slides.forEach((x=>{
+            x.classList.remove("showPicture");
+        }));
+        slides[slideIndex].classList.add("showPicture");
         
     };
 });  
 
+document.addEventListener("DOMContentLoaded", () => {
     var openCard = document.querySelector(".open-card");
     var closeCard = document.querySelector(".close-purpose");
     var purposeCard = document.querySelector(".purpose");
@@ -88,5 +89,21 @@ document.addEventListener("DOMContentLoaded", () => {
         purposeCard.style.display ="none"
     });
 
+}); 
 
+document.addEventListener("DOMContentLoaded", () => {
+
+    var scrollLeft = document.querySelector(".slide-left");
+    var scrollRight = document.querySelector(".slide-right");
+    var scrollDepth = document.querySelector(".card-container")
+    let move = 380;
+
+    scrollLeft.addEventListener("click", ()=>{
+        scrollDepth.scrollBy({left: -move, behavior: "smooth"});
+    });
+
+    scrollRight.addEventListener("click", ()=>{
+        scrollDepth.scrollBy({left: move, behavior: "smooth"});
+    });
+}); 
   

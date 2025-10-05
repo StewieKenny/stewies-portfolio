@@ -59,6 +59,15 @@
     .arrow{
         display: none;
     }
+    .card-container{
+        flex-wrap: nowrap;
+        flex-direction: row;
+        
+        overflow-y: scroll;
+    }
+    .button-parent{
+        width: 770px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -133,7 +142,19 @@
     }
 
      #projects{
-        margin-top: 50px;
+        margin-top: 50px; 
+    }
+    .button-parent{
+        width: 400px;
+    }
+    .card-container{
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 350px;
+        overflow-y: scroll;
+    }
+    .card-box{
+        padding: 30px 20px;
     }
 
     .logo-content p{
@@ -173,5 +194,8 @@
     }
     .visuals{
     width: 300px;
+    }
+    .button-parent{
+        width: 350px;
     }
 }
