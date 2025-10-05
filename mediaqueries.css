@@ -150,7 +150,7 @@
     .card-container{
         flex-wrap: nowrap;
         flex-direction: row;
-        width: 350px;
+        width: 360px;
         overflow-y: scroll;
     }
     .card-box{
@@ -163,7 +163,7 @@
 
     .logo-slide{
     width: 300px;
-}
+    }
 
      #contact{
         margin-top: 50px;
