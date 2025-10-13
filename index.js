@@ -98,6 +98,8 @@ document.addEventListener("DOMContentLoaded", () => {
     var scrollDepth = document.querySelector(".card-container")
     let move = 380;
 
+    checkButtons();
+
     scrollLeft.addEventListener("click", ()=>{
         scrollDepth.scrollBy({left: -move, behavior: "smooth"});
     });
@@ -105,5 +107,26 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollRight.addEventListener("click", ()=>{
         scrollDepth.scrollBy({left: move, behavior: "smooth"});
     });
-}); 
+ 
+
+    scrollDepth.addEventListener("scroll", checkButtons);
+
+    function checkButtons() {
+    const maxScrollLeft = scrollDepth.scrollWidth - scrollDepth.clientWidth;
+
+    // Hide prev if at start
+    if (scrollDepth.scrollLeft <= 0) {
+      scrollLeft.style.display = "none";
+    } else {
+      scrollLeft.style.display = "block";
+    }
+
+    // Hide next if at end
+    if (scrollDepth.scrollLeft >= maxScrollLeft - 1) {
+      scrollRight.style.display = "none";
+    } else {
+      scrollRight.style.display = "block";
+    }
+  }
+});
   
